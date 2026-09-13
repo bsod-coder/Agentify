@@ -5,7 +5,11 @@ Agentify is a tool that lets any website become ***agentic***. It lets website w
 ---
 
 ## Core
-Agentify is written in go without using Electron so it's lightweight. It uses 
+
+Agentify is written in go without using Electron so it's lightweight. It uses traffic light permissions system. **Red** - all actions should be authorised (the most secure). **Yellow** - some actions auto approved, other still require approvement (read actions auto approved, write actions need manual approval, configurable. best balance.) **Green** - all actions auto approved (R/W, no restrictions, very dangerous!)
+
+---
+
 ## why it's better than models in sandbox (like claude or chatgpt)?
 
 | Comparison<br>object | Sandbox                                                                                | Agentify                                                                                         |
